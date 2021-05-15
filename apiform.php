@@ -1,5 +1,6 @@
 <?php
- header('Content-Type:application/json');
+header("Access-Control-Allow-Origin: *");
+header('Content-Type:application/json');
 $dsn="mysql:host=localhost;dbname=the_users";  
 $user="root";
 $pass="";
