@@ -20,9 +20,9 @@ class api {
         while($uotput = $data->fetch(PDO::FETCH_ASSOC)){
             // $users[$uotput['name']]=array (
             $users[]=array (
-            'name'=>$uotput['name'],
-            'email'=>$uotput['email'],
-            'phone'=>$uotput['phone'],
+            'name'=>$uotput['example'],
+            'email'=>$uotput['example'],
+            'phone'=>$uotput['example'],
             );
         }
       return  json_encode($users);
